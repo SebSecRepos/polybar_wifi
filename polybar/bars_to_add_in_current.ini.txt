@@ -1,0 +1,34 @@
+[bar/wifi]
+inherit = bar/main
+width = 9%
+height = 40
+offset-x = 30.8%
+offset-y = 15
+background = #000000
+bottom = false
+padding = 1
+;padding-top = 2
+module-margin-left = 0
+module-margin-right = 0
+;modules-left = date sep mpd
+modules-center = wifi_module
+wm-restack = bspwm
+
+[bar/ip]
+inherit = bar/main
+width = 14%
+height = 40
+offset-x = 14.8%
+offset-y = 15
+background = #00000
+foreground = ${color.white}
+bottom = false
+padding = 1
+module-margin-left = 0
+module-margin-right = 0
+modules-center = ip_module
+wm-restack = bspwm
+
+
+
+

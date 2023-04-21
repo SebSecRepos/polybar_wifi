@@ -1,0 +1,9 @@
+[module/wifi_module]
+type = custom/script
+interval = 2
+exec = ~/.config/polybar/scripts/custom/wifi.sh
+
+[module/ip_module]
+type = custom/script
+interval = 2
+exec = ~/.config/polybar/scripts/custom/ip.sh
